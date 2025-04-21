@@ -639,6 +639,15 @@ section.active{
 .contact-box .field-box textarea:focus{
     border-color: var(--main-color);
 }
+.contact-box .btn{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+    html{
+        font-size: 55%;
+    }
+}
 @media screen and (max-width: 992px) {
     header{
         padding: 2rem 4%;
@@ -666,5 +675,13 @@ section.active{
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow:0 .5rem .1rem  rgba(0, 0, 0, .2);
         text-align: center ;
+    }
+    nav a {
+        display: block;
+        margin: 4rem 0;
+    }
+    nav a {
+        display: block;
+        margin: 4rem 0 ;
     }
 }
