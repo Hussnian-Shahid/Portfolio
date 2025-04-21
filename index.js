@@ -93,6 +93,10 @@ const activePage = () => {
     section.forEach(section => {
         section.classList.remove('active')
     });
+
+    menuIcon.classList.remove("bx-x");
+    navbar.classList.remove("active");
+
 }
 navLinks.forEach((link, idx) => {
     link.addEventListener('click', () => {
