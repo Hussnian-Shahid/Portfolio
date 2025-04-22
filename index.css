@@ -620,7 +620,7 @@ transition: .2s;
     transition: .5s;
 }
 .portfolio-carousel .img-item{
-    height:     ;
+    height:inherit;
 }
 .portfolio-carousel .img-item img{
     display: block;
